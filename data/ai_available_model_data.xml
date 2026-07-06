@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="model_og_deepseek_v4_flash" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">deepseek-v4-flash</field>
+            <field name="name">DeepSeek V4 Flash</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="model_og_deepseek_v4_pro" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">deepseek-v4-pro</field>
+            <field name="name">DeepSeek V4 Pro</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="model_og_kimi_k27_code" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">kimi-k2.7-code</field>
+            <field name="name">Kimi K2.7 Code</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="model_og_kimi_k26" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">kimi-k2.6</field>
+            <field name="name">Kimi K2.6</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">4</field>
+        </record>
+        <record id="model_og_glm52" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">glm-5.2</field>
+            <field name="name">GLM-5.2</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">5</field>
+        </record>
+        <record id="model_og_glm51" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">glm-5.1</field>
+            <field name="name">GLM-5.1</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">6</field>
+        </record>
+        <record id="model_og_mimo_v25" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">mimo-v2.5</field>
+            <field name="name">MiMo-V2.5</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">7</field>
+        </record>
+        <record id="model_og_mimo_v25_pro" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">mimo-v2.5-pro</field>
+            <field name="name">MiMo-V2.5 Pro</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">8</field>
+        </record>
+        <record id="model_og_minimax_m3" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">minimax-m3</field>
+            <field name="name">MiniMax M3</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">9</field>
+        </record>
+        <record id="model_og_minimax_m27" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">minimax-m2.7</field>
+            <field name="name">MiniMax M2.7</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">10</field>
+        </record>
+        <record id="model_og_qwen37_max" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">qwen3.7-max</field>
+            <field name="name">Qwen3.7 Max</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">11</field>
+        </record>
+        <record id="model_og_qwen37_plus" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">qwen3.7-plus</field>
+            <field name="name">Qwen3.7 Plus</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">12</field>
+        </record>
+        <record id="model_og_qwen36_plus" model="ai.available.model">
+            <field name="provider">opencode_go</field>
+            <field name="model_id">qwen3.6-plus</field>
+            <field name="name">Qwen3.6 Plus</field>
+            <field name="is_default" eval="True"/>
+            <field name="sequence">13</field>
+        </record>
+    </data>
+</odoo>

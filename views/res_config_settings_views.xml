@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_ai_provider_opencode" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.ai.provider.opencode</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="ai_app.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//app[@name='ai_app']//block[@name='ai_providers']" position="inside">
+                <setting id="opencode_go_provider"
+                         string="Use Opencode Go"
+                         help="API key from opencode.ai — provides access to open coding models."
+                         groups="base.group_system">
+                    <field name="ai_opencode_go_key_enabled" />
+                    <group invisible="not ai_opencode_go_key_enabled">
+                        <div class="flex-grow-1">
+                            <field name="ai_opencode_go_api_key" placeholder="Key" password="True" nolabel="1" class="w-100"/>
+                            <field name="ai_opencode_go_base_url" placeholder="https://opencode.ai/zen/go/v1" nolabel="1" class="w-100 mt-2"/>
+                            <field name="ai_opencode_go_model" nolabel="1" class="w-100 mt-2"/>
+                        </div>
+                    </group>
+                </setting>
+            </xpath>
+        </field>
+    </record>
+</odoo>
